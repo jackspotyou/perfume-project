@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    background-color: pink;
+    color: aliceblue;
+    padding: 20px;
+}
+h1, li,ul{ display: inline;}
+ul{
+    padding-left: 20%;
+}
+h1{
+    cursor: grab;
+}
+li{
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+    }
+li:hover{
+    color: crimson;
+}  
+#one{
+    color: rgba(139, 0, 139, 0.849);
+}  
+#two{
+    color: rgba(218, 165, 32, 0.979);
+}
+#one:hover{
+    color: antiquewhite;
+}
+#two:hover{
+    color: cadetblue;
+}
+nav:hover{
+    background-color: rosybrown;
+    
+}
+input{
+    width: 60%;
+    padding: 15px;
+    color: lightpink;
+    border-color: cornflowerblue;
+}
+.searchbar{
+    text-align: center;
+    padding: 50px;
+}
+.love{
+    width: 100px;
+    padding-left: 500px;
+    margin-top: 20px;
+}
+.box{
+    border-color: rgba(255, 192, 203, 0.993);
+    border-width: 5px;
+    border-style: dashed;
+    display: inline-block;
+    width: 300px;
+}
+.lucky{
+    display: block;
+    width: 300px;
+    padding-bottom: 20px;
+    
+}
+.products{
+    text-align: center;
+   
+}
+.box:hover{
+    color: orchid;
+    background-color: black;
+}
+input:hover{
+    color: goldenrod;
+    border-color: plum
+}
+.contact{
+    color: bisque;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+}
+
